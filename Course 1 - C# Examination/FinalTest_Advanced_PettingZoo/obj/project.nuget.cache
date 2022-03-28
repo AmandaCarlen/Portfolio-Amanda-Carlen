@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VmrA7OHBO8S+uFskqze2HaXDZoV+b3QNd63+ZrRDwT6Fq4AHyBldZ8SMXte7evUb5SdMTX5pUdY6SwJZfaCBTw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\amand\\Studier-hårddisk\\ITHS\\Alla-iths\\CS\\0_2FinalTest_Advanced_PettingZoo\\FinalTest_Advanced_PettingZoo\\FinalTest_Advanced_PettingZoo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\amand\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

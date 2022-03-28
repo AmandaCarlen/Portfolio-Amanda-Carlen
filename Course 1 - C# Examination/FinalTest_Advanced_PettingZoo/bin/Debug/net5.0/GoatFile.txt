@@ -1,0 +1,7 @@
+Name,Age,IsAvalible,IsSick,Price,RentedByUserName,DaysRentedFor
+Hippie,5,True,False,100,,0
+Alice,4,True,False,110,,0
+Rufus,2,True,False,130,,0
+Klara,1,True,False,200,,0
+Winston,1,False,False,200,Amanda,3
+Kasper,3,False,False,120,Amanda,3
