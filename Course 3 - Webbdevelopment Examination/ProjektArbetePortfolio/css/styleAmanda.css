@@ -1,0 +1,48 @@
+#csharp-bar {
+  animation: cs-fill 2s forwards;
+}
+#html-bar {
+  animation: html-fill 2s forwards;
+}
+#css-bar {
+  animation: css-fill 2s forwards;
+}
+#bootstrap-bar {
+  animation: bootstrap-fill 2s forwards;
+}
+#swedish-bar {
+  animation: swedish-fill 2s forwards;
+}
+#english-bar {
+  animation: english-fill 2s forwards;
+}
+@keyframes cs-fill {
+  100% {
+    width: 80%;
+  }
+}
+@keyframes html-fill {
+  100% {
+    width: 70%;
+  }
+}
+@keyframes css-fill {
+  100% {
+    width: 70%;
+  }
+}
+@keyframes bootstrap-fill {
+  100% {
+    width: 30%;
+  }
+}
+@keyframes swedish-fill {
+  100% {
+    width: 100%;
+  }
+}
+@keyframes english-fill {
+  100% {
+    width: 90%;
+  }
+}

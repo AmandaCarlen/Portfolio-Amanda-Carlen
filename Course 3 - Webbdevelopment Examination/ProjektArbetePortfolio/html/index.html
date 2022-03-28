@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <!--Icons-->
+    <script
+      src="https://kit.fontawesome.com/19b12a14ab.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--javascript library-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Tech Tropilis</title>
+  </head>
+  <body>
+    <header class="header-bgimg">
+      <div class="cloud-bg-animation"></div>
+      <div id="navbar">
+        <nav class="navbar-container">
+          <a href="" class="home-link"> Home </a>
+          <!--Hamburger menu-->
+          <button
+            type="button"
+            id="navbar-toggle"
+            aria-controls="navbar-menu"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div id="navbar-menu" aria-labelledby="navbar-toggle">
+            <ul class="navbar-links">
+              <li class="navbar-item active">
+                <a class="navbar-link" href="/html/index.html">Home</a>
+              </li>
+              <li class="navbar-item dropdown">
+                <a
+                  onclick="myFunction()"
+                  class="navbar-item dropdown dropbtn navbar-link"
+                  href="#"
+                  >Developers<i class="fas fa-caret-down"></i
+                ></a>
+                <ul id="myDropdown" class="dropdown-content navbar-link">
+                  <li><a href="/html/didrik.html">Didrik</a></li>
+                  <li><a href="/html/madde.html">Madeleine</a></li>
+                  <li><a href="/html/amanda.html">Amanda</a></li>
+                </ul>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="/html/portfolio.html">Portfolio</a>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="/html/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="header-text">
+        <div class="text">
+          <span class="intro">Hi, welcome to</span>
+          <h2 class="glitch">
+            <span class="glitch-layer">Tech Tropilis</span>
+            Tech Tropilis
+            <span class="glitch-layer">Tech Tropilis</span>
+          </h2>
+        </div>
+      </div>
+    </header>
+    <!--Home-->
+    <main class="main-container">
+      <h2 class="main-h2">This is us</h2>
+      <div>
+        <p class="home--about-us--info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          architecto dolores animi placeat voluptatem illo ea. Nihil ullam magni
+          voluptates aspernatur dolores, dolorum, minus excepturi molestiae rem
+          adipisci aut sapiente. Ut, earum aspernatur. Harum voluptatem
+          perferendis blanditiis distinctio suscipit quasi assumenda sequi. Et
+          dignissimos suscipit earum, aspernatur vel quisquam error iure quasi
+          corrupti asperiores? Excepturi molestiae consequatur laborum quia,
+          praesentium quod culpa, aut magnam delectus illo sapiente minus,
+          perferendis quisquam dignissimos tenetur minima itaque quidem? Sit
+          maiores ratione itaque commodi earum doloremque quae veniam corporis
+          totam repellat odio, reprehenderit quia magni est amet quos autem
+          obcaecati voluptatem cupiditate fugit neque ipsum. Quam nostrum alias
+          deserunt dolor temporibus voluptatibus id tempore adipisci nesciunt
+          aut, ipsa illo omnis harum, deleniti non.
+        </p>
+      </div>
+      <h2 class="main-h2">Our team</h2>
+      <a href="/html/madde.html" class="link developer">
+        <div>
+          <img
+            class="developer--img"
+            src="/images/Madde.jpg"
+            alt="Picture of Madeleine"
+          />
+          <h3 class="delevoper-name">Madeleine <i>Back-end developer</i></h3>
+        </div>
+      </a>
+      <a href="/html/didrik.html" class="link developer">
+        <div>
+          <img
+            class="developer--img"
+            src="/images/Didrik.jpg"
+            alt="Picture of Didrik"
+          />
+          <h3 class="delevoper-name">Didrik <i>UI/UX Designer</i></h3>
+        </div>
+      </a>
+      <a href="/html/amanda.html" class="link developer">
+        <div>
+          <img
+            class="developer--img"
+            src="/images/Amanda.jpg"
+            alt="Picture of Amanda"
+          />
+          <h3 class="delevoper-name">Amanda <i>Front-end developer</i></h3>
+        </div>
+      </a>
+    </main>
+    <footer class="footer-bgimg">
+      <p>Copyright &#169; MaddeDidrikAmanda &#8482;</p>
+    </footer>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

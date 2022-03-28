@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/styleMadde.css" />
+    <!--Icons-->
+    <script
+      src="https://kit.fontawesome.com/19b12a14ab.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--javascript library-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Tech Tropilis | Madeleine</title>
+  </head>
+
+  <body>
+    <header class="header-bgimg">
+      <div class="cloud-bg-animation"></div>
+      <div id="navbar">
+        <nav class="navbar-container">
+          <a href="" class="home-link"> Madeleine </a>
+          <!--Hamburger menu-->
+          <button
+            type="button"
+            id="navbar-toggle"
+            aria-controls="navbar-menu"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div id="navbar-menu" aria-labelledby="navbar-toggle">
+            <ul class="navbar-links">
+              <li class="navbar-item">
+                <a class="navbar-link" href="/html/index.html">Home</a>
+              </li>
+
+              <li class="navbar-item dropdown">
+                <a
+                  onclick="myFunction()"
+                  class="navbar-item dropdown dropbtn navbar-link"
+                  href="#"
+                  >Developers<i class="fas fa-caret-down"></i
+                ></a>
+                <ul id="myDropdown" class="dropdown-content navbar-link">
+                  <li><a href="/html/didrik.html">Didrik</a></li>
+                  <li class="active"><a href="/html/madde.html">Madeleine</a></li>
+                  <li><a href="/html/amanda.html">Amanda</a></li>
+                </ul>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="/html/portfolio.html">Portfolio</a>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="/html/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="header-text">
+        <div class="text">
+          <span class="intro">Hi, my name is Madeleine and I am a</span>
+          <h2 class="glitch">
+            <span class="glitch-layer">Back-end Developer</span>
+            Back-end Developer
+            <span class="glitch-layer">Back-end Developer</span>
+          </h2>
+        </div>
+      </div>
+    </header>
+    <!--About me-->
+    <main class="main-container">
+      <h2 class="main-h2">About me</h2>
+      <!--About me photo-->
+      <div class="about-me--img">
+        <img
+          id="about-me--img"
+          src="/images/Madde.jpg"
+          alt="Picture of Madde"
+        />
+      </div>
+      <!--About me text-->
+      <div class="about-me--info">
+        <h4>My name is Madeleine and I am a</h4>
+        <p>
+          Lorem ett två, ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus, possimus explicabo accusamus animi facere asperiores
+          laborum recusandae at cum iusto? Id suscipit voluptatum, sit amet
+          error quisquam dolore atque ut! lorem
+        </p>
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae,
+          ullam quia! Culpa quia totam odit, sint esse impedit, magnam nisi
+          repudiandae quisquam earum eos aperiam vero enim delectus vitae veniam
+          excepturi quas nulla dolor unde molestias harum, incidunt vel natus.
+          Nulla qui ex esse aliquid magnam vero, quas saepe nobis soluta,
+          obcaecati dicta culpa facere nostrum. Obcaecati, eius qui blanditiis
+          aspernatur quo quos esse distinctio omnis magnam exercitationem quod
+          necessitatibus, iure dolorem nostrum est ad officia quia, assumenda
+          perspiciatis? Officiis!
+        </p>
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+          distinctio, commodi vero accusamus beatae saepe voluptatem voluptate,
+          animi aliquid inventore voluptates consequuntur. Error explicabo
+          tenetur ex optio commodi quo. Ab!
+        </p>
+      </div>
+
+      <!--Skill bar-->
+      <div class="about-me--skill-bar">
+        <h3 class="about-me--skill-bar--header">Skills</h3>
+
+        <div class="about-me--skill-bar--skills">
+          <div class="about-me--skill-bar--details">
+            <span>C#</span>
+            <span>60%</span>
+          </div>
+          <div class="about-me--skill-bar--bar">
+            <div id="csharp-bar"></div>
+          </div>
+        </div>
+        <div class="about-me--skill-bar--skills">
+          <div class="about-me--skill-bar--details">
+            <span>HTML</span>
+            <span>40%</span>
+          </div>
+          <div class="about-me--skill-bar--bar">
+            <div id="html-bar"></div>
+          </div>
+        </div>
+        <div class="about-me--skill-bar--skills">
+          <div class="about-me--skill-bar--details">
+            <span>CSS</span>
+            <span>50%</span>
+          </div>
+          <div class="about-me--skill-bar--bar">
+            <div id="css-bar"></div>
+          </div>
+        </div>
+        <div class="about-me--skill-bar--skills">
+          <div class="about-me--skill-bar--details">
+            <span>Bootstrap</span>
+            <span>20%</span>
+          </div>
+          <div class="about-me--skill-bar--bar">
+            <div id="bootstrap-bar"></div>
+          </div>
+        </div>
+
+        <h3 class="about-me--skill-bar--header">Languages</h3>
+        <div class="about-me--skill-bar--skills">
+          <div class="about-me--skill-bar--details">
+            <span>Swedish</span>
+            <span>100%</span>
+          </div>
+          <div class="about-me--skill-bar--bar">
+            <div id="swedish-bar"></div>
+          </div>
+        </div>
+        <div class="about-me--skill-bar--skills">
+          <div class="about-me--skill-bar--details">
+            <span>English</span>
+            <span>90%</span>
+          </div>
+          <div class="about-me--skill-bar--bar">
+            <div id="english-bar"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-me--socialshare">
+        <a href="https://github.com/" class="link">
+          <i class="fab fa-github icon"></i
+        ></a>
+        <a href="https://linkedin.com/" class="link">
+          <i class="fab fa-linkedin icon"></i
+        ></a>
+        <a href="https://instagram.com/" class="link">
+          <i class="fab fa-instagram icon"></i
+        ></a>
+        <a href="https://facebook.com/" class="link">
+          <i class="fab fa-facebook icon"></i>
+        </a>
+      </div>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer-bgimg">
+      <p>Copyright &#169; MaddeDidrikAmanda &#8482;</p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>

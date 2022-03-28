@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <!--Icons-->
+    <script
+      src="https://kit.fontawesome.com/19b12a14ab.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--javascript library-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Tech Tropilis | Contact</title>
+  </head>
+
+  <body>
+    <header class="header-bgimg">
+      <div class="cloud-bg-animation"></div>
+      <div id="navbar">
+        <nav class="navbar-container">
+          <a href="" class="home-link"> Contact </a>
+          <!--Hamburger menu-->
+          <button
+            type="button"
+            id="navbar-toggle"
+            aria-controls="navbar-menu"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div id="navbar-menu" aria-labelledby="navbar-toggle">
+            <ul class="navbar-links">
+              <li class="navbar-item">
+                <a class="navbar-link" href="/html/index.html">Home</a>
+              </li>
+
+              <li class="navbar-item dropdown">
+                <a
+                  onclick="myFunction()"
+                  class="navbar-item dropdown dropbtn navbar-link"
+                  href="#"
+                  >Developers<i class="fas fa-caret-down"></i
+                ></a>
+                <ul id="myDropdown" class="dropdown-content navbar-link">
+                  <li><a href="/html/didrik.html">Didrik</a></li>
+                  <li><a href="/html/madde.html">Madeleine</a></li>
+                  <li><a href="/html/amanda.html">Amanda</a></li>
+                </ul>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="/html/portfolio.html">Portfolio</a>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link active" href="/html/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="header-text">
+        <div class="text">
+          <span class="intro">Hi, welcome to</span>
+          <h2 class="glitch">
+            <span class="glitch-layer">Tech Tropilis</span>
+            Tech Tropilis
+            <span class="glitch-layer">Tech Tropilis</span>
+          </h2>
+        </div>
+      </div>
+    </header>
+    <main class="main-container">
+      <h2 class="main-h2">Get in touch with us</h2>
+      <div class="contact-form">
+        <div class="text">Contact us</div>
+        <form action="#">
+          <div class="form-row">
+            <div class="input-data">
+              <input type="text" required />
+              <label>First name</label>
+            </div>
+            <div class="input-data">
+              <input type="text" required />
+              <label>Last name</label>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="input-data">
+              <input type="text" name="phonenumber" id="phonenumber" required />
+              <label>Phone number</label>
+            </div>
+            <div class="input-data">
+              <input type="text" name="email" id="email" required />
+              <label>E-mail</label>
+            </div>
+          </div>
+          <label id="error-phonenumber"></label><br />
+          <label id="error-email"></label>
+          <div class="form-row">
+            <div class="checkbox">
+              <input type="checkbox" />
+              <label>Send me monthly newsletter</label>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="input-data textarea">
+              <textarea cols="30" rows="10" required></textarea>
+              <label>Message</label>
+            </div>
+          </div>
+          <div class="form-row submit-btn">
+            <div class="input-data">
+              <div id="submit-btn">
+                <input type="submit" value="Send" />
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer class="footer-bgimg">
+      <p>Copyright &#169; MaddeDidrikAmanda &#8482;</p>
+    </footer>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

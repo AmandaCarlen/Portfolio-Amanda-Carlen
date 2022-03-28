@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+#csharp-bar {
+  animation: cs-fill 2s forwards;
+}
+#html-bar {
+  animation: html-fill 2s forwards;
+}
+#css-bar {
+  animation: css-fill 2s forwards;
+}
+#bootstrap-bar {
+  animation: bootstrap-fill 2s forwards;
+}
+#swedish-bar {
+  animation: swedish-fill 2s forwards;
+}
+#english-bar {
+  animation: english-fill 2s forwards;
+}
+#german-bar{
+  animation: german-fill 2s forwards;
+}
+@keyframes cs-fill {
+  100% {
+    width: 75%;
+  }
+}
+@keyframes html-fill {
+  100% {
+    width: 65%;
+  }
+}
+@keyframes css-fill {
+  100% {
+    width: 70%;
+  }
+}
+@keyframes bootstrap-fill {
+  100% {
+    width: 30%;
+  }
+}
+@keyframes swedish-fill {
+  100% {
+    width: 100%;
+  }
+}
+@keyframes english-fill {
+  100% {
+    width: 90%;
+  }
+}
+@keyframes german-fill{
+  100%{
+    width: 25%;
+  }
+}
+
+.img-container{
+  position: relative;
+  
+}
+
+.about-me--overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  border-radius: 100%;
+  color: white;
+  font-family: 'Poppins',sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+
+.about-me--overlay > *{
+  transform: translateY(80%);
+  transition: transform 0.5s;
+}
+
+.about-me--overlay:hover{
+  opacity: 1;
+}
+
+.about-me--overlay:hover > *{
+  transform: translateY(0);
+}
+
+.about-me--overlay-title{
+  font-size: 2em;
+  font-weight: 500;
+}
+.about-me--overlay-description{
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+.about-me--info h4{
+  font-size: 1.25em;
+  text-transform: uppercase;
+}
+#about-me--img{
+  box-shadow: 10px 20px 30px rgba(189, 222, 236, 0.8);
+}
+
+
+
+

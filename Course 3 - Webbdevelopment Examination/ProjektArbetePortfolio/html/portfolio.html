@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <!--Hamburger menu (icons)-->
+    <script
+      src="https://kit.fontawesome.com/19b12a14ab.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--javascript library-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Tech Tropilis | Portfolio</title>
+  </head>
+  <body>
+    <header class="header-bgimg">
+      <div class="cloud-bg-animation"></div>
+      <div id="navbar">
+        <nav class="navbar-container">
+          <a href="" class="home-link"> Portfolio </a>
+          <!--Hamburger menu-->
+          <button
+            type="button"
+            id="navbar-toggle"
+            aria-controls="navbar-menu"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div id="navbar-menu" aria-labelledby="navbar-toggle">
+            <ul class="navbar-links">
+              <li class="navbar-item">
+                <a class="navbar-link" href="/html/index.html">Home</a>
+              </li>
+
+              <li class="navbar-item dropdown">
+                <a
+                  onclick="myFunction()"
+                  class="navbar-item dropdown dropbtn navbar-link"
+                  href="#"
+                  >Developers<i class="fas fa-caret-down"></i
+                ></a>
+                <ul id="myDropdown" class="dropdown-content navbar-link">
+                  <li><a href="/html/didrik.html">Didrik</a></li>
+                  <li><a href="/html/madde.html">Madeleine</a></li>
+                  <li><a href="/html/amanda.html">Amanda</a></li>
+                </ul>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link active" href="/html/portfolio.html">Portfolio</a>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="/html/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="header-text">
+        <div class="text">
+          <span class="intro">Welcome to our</span>
+          <h2 class="glitch">
+            <span class="glitch-layer">Portfolio</span>
+            Portfolio
+            <span class="glitch-layer">Portfolio</span>
+          </h2>
+        </div>
+      </div>
+    </header>
+
+    <h2 class="main-h2">Projects</h2>
+    <main class="portfolio-slideshow">
+      <div class="slider">
+        <div class="slide active">
+          <img src="/images/sql.png" alt="" />
+          <div class="info">
+            <h2>SQL Management</h2>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="/images/ui-ux.png" alt="" />
+          <div class="info">
+            <h2>UI & UX Work</h2>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="/images/web.design.jpg" alt="" />
+          <div class="info">
+            <h2>Website Design</h2>
+          </div>
+        </div>
+        <div class="navigation">
+          <i class="fas fa-chevron-left prev-btn"></i>
+          <i class="fas fa-chevron-right next-btn"></i>
+        </div>
+        <div class="navigation-visibility">
+          <div class="slide-icon active"></div>
+          <div class="slide-icon"></div>
+          <div class="slide-icon"></div>
+        </div>
+      </div>
+    </main>
+    <section class="portfolio-info">
+      <div class="portfolio-text">
+        <h3 class="portfolio-header">SQL Management</h3>
+        <img class="portfolio-text-img" src="/images/sql.png" alt="" />
+        <h4 class="portfolio-text-header">
+          SQL management service for a corporate client
+        </h4>
+        <p class="portfolio-infotext">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+          voluptatum quis officiis voluptatibus quaerat nesciunt itaque nemo
+          libero impedit dignissimos repellendus ut molestias totam rerum
+          praesentium veniam numquam, cumque molestiae dolore similique suscipit
+          autem labore accusantium. Similique hic ipsam minima consequuntur iure
+          est, nulla voluptates eos magni earum sunt assumenda. Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Architecto, unde. Magni
+          suscipit earum dolorem corrupti omnis explicabo minus officia quas.
+        </p>
+      </div>
+      <div class="portfolio-text">
+        <h3 class="portfolio-header">UI & UX Work</h3>
+        <img class="portfolio-text-img" src="/images/ui-ux.png" alt="" />
+        <h4 class="portfolio-text-header">UI & UX work on a new application</h4>
+        <p class="portfolio-infotext">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          doloribus minus animi tempora nulla et magni earum libero quibusdam
+          nihil deleniti, voluptate harum numquam, dicta ducimus. Obcaecati
+          vitae voluptate ad. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Recusandae, amet quisquam. Illo laborum cupiditate esse hic
+          doloremque ut eum praesentium magni asperiores fugiat. Perferendis
+          exercitationem beatae repellat? Quod alias doloremque delectus, soluta
+          assumenda porro. Tenetur sunt, tempore reiciendis molestiae nam
+          laboriosam mollitia similique sapiente totam quaerat at quos minus
+          quisquam.
+        </p>
+      </div>
+      <div class="portfolio-text">
+        <h3 class="portfolio-header">Website Design</h3>
+        <img class="portfolio-text-img" src="/images/web.design.jpg" alt="" />
+        <h4 class="portfolio-text-header">
+          Created a responsive and efficient website
+        </h4>
+        <p class="portfolio-infotext">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quas
+          fugiat amet sapiente facere nam aliquid assumenda tenetur ut
+          reprehenderit! Aliquam similique excepturi, incidunt earum qui dolor
+          sed vero quos nobis dicta officia tempora corporis quae illo quo
+          commodi voluptatibus iusto rem eum vel dolore doloremque voluptatem
+          maxime obcaecati. Excepturi. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Dolores distinctio odio voluptates earum error
+          doloremque ex, recusandae quidem debitis expedita perspiciatis culpa
+          harum veritatis officia sequi tempore, nam totam ducimus.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer-bgimg">
+      <p>Copyright &#169; MaddeDidrikAmanda &#8482;</p>
+    </footer>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
