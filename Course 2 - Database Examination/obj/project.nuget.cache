@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iX23WglBbW8E6lkZFMMOJHxrlU8l1/IqmoRJVV6/Puw/eGqoxL0RSm9pZ9D+Cq9/aSUDEkaa7Uq62h2Wy+gMNw==",
+  "dgSpecHash": "Nvys/sSj5OTDH/+b+O1pQNdvRFzG6dHdiKuN8aBHkKL3W2KqNEBAwMwEZnN6o0OLQJ2NTWXBXJMUTVgxf7uwDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\amand\\Studier - hårddisk\\.NET\\Alla iths\\Kurs 2\\FinaltestLibraryAzureDB\\FinaltestLibrary.csproj",
+  "projectFilePath": "C:\\Users\\amand\\Studier-hårddisk\\Portfolio\\Course 2 - Database Examination\\FinaltestLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\amand\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\amand\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

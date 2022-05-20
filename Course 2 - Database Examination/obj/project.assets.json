@@ -7433,11 +7433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amand\\Studier - hårddisk\\.NET\\Alla iths\\Kurs 2\\FinaltestLibraryAzureDB\\FinaltestLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\amand\\Studier-hårddisk\\Portfolio\\Course 2 - Database Examination\\FinaltestLibrary.csproj",
       "projectName": "FinaltestLibrary",
-      "projectPath": "C:\\Users\\amand\\Studier - hårddisk\\.NET\\Alla iths\\Kurs 2\\FinaltestLibraryAzureDB\\FinaltestLibrary.csproj",
+      "projectPath": "C:\\Users\\amand\\Studier-hårddisk\\Portfolio\\Course 2 - Database Examination\\FinaltestLibrary.csproj",
       "packagesPath": "C:\\Users\\amand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amand\\Studier - hårddisk\\.NET\\Alla iths\\Kurs 2\\FinaltestLibraryAzureDB\\obj\\",
+      "outputPath": "C:\\Users\\amand\\Studier-hårddisk\\Portfolio\\Course 2 - Database Examination\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\amand\\AppData\\Roaming\\NuGet\\NuGet.Config",
