@@ -1,0 +1,48 @@
+@page
+@model razorApp.Pages.Administration.Course.CourseGallery
+@{
+    ViewData["Title"] = "CourseGallery";
+}
+
+<h1>Alla kurser</h1>
+
+<div class="center">
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Längd</th>
+            <th>Kategori</th>
+            <th>Beskrivning</th>
+            <th>Detaljer</th>
+        </tr>
+        @foreach(var course in Model.Courses)
+        {
+            <tr>
+                <td>@course.Id</td>
+                <td>@course.Title</td>
+                <td>@course.Length</td>
+                <td>@course.Category</td>
+                <td>@course.Description</td>
+                <td>@course.Details</td>               
+               <td><form asp-page="./UpdateCourse" method="GET">
+                    <button class="btn btn-default">Edit</button>
+                    <input type="hidden" name="id" value="@course.Id" />
+                </form></td>
+                 <td><form asp-page="./ViewCourse" method="GET">
+                    <button class="btn btn-default">View</button>
+                    <input type="hidden" name="id" value="@course.Id" />
+                </form></td>
+                <td><form asp-page="./DeleteCourse" method="GET">
+                    <button class="btn btn-default">Delete</button>
+                    <input type="hidden" name="id" value="@course.Id" />
+                </form></td>
+               
+            </tr>
+        }
+    </table>
+        <td><form asp-page="./CreateCourse" method="GET">
+                    <button class="btn btn-default">Lägg till kurs</button>
+        </form></td>
+</div>
+

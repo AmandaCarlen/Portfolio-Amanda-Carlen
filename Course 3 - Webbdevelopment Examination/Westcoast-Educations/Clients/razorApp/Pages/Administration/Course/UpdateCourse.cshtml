@@ -1,0 +1,46 @@
+@page
+@model razorApp.Pages.Administration.UpdateCourse
+@{
+    ViewData["Title"] = "Uppdatera Course";
+}
+
+<header>
+    <h1>Uppdatera kurs</h1>
+
+</header>
+<section class="center">
+    <h4>Kurs information</h4>
+    <section>        
+        <form method="post">
+            <div>
+                <label asp-for="CourseModel.Id"></label>
+                <input asp-for="CourseModel.Id">
+            </div>
+            <div>
+                <label asp-for="CourseModel.Title"></label>
+                <input asp-for="CourseModel.Title">
+            </div>
+            <div>
+                <label asp-for="CourseModel.Length"></label>
+                <input asp-for="CourseModel.Length">
+            </div>
+            <div>
+                <label asp-for="CourseModel.Category"></label>
+                <input asp-for="CourseModel.Category">
+            </div>
+            <div>
+                <label asp-for="CourseModel.Description"></label>
+                <input asp-for="CourseModel.Description">
+            </div>
+            <div>
+                <label asp-for="CourseModel.Details"></label>
+                <input asp-for="CourseModel.Details">
+            </div>
+            <div class="button">
+                <button type="submit" class="btn">Spara</button>
+            </div>
+        </form>
+            <a asp-page="./CourseGallery"><i class="fa-solid fa-left-long"></i>Tillbaka till alla elever</a>
+    </section>
+</section>
+

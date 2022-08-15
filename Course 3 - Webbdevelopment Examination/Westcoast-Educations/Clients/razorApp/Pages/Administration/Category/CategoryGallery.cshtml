@@ -1,0 +1,40 @@
+@page
+@model razorApp.Pages.Administration.Category.CategoryGallery
+@{
+    ViewData["Title"] = "CategoryGallery";
+}
+
+<h1>Alla Kategorier</h1>
+
+<div class="center">
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Namn</th>
+        </tr>
+        @foreach (var category in Model.Categories)
+        {
+            <tr>
+                <td>@category.Id</td>
+                <td>@category.Name</td>
+                <td>
+                    <form asp-page="./UpdateCategory" method="GET">
+                        <button class="btn btn-default">Edit</button>
+                        <input type="hidden" name="id" value="@category.Id" />
+                    </form>
+                </td>
+                <td>
+                    <form asp-page="./ViewCategory" method="GET">
+                        <button class="btn btn-default">View</button>
+                        <input type="hidden" name="id" value="@category.Id" />
+                    </form>
+                </td>
+            </tr>
+        }
+    </table>
+    <td>
+        <form asp-page="./CreateCategory" method="GET">
+            <button class="btn btn-default">Lägg till kategori</button>
+        </form>
+    </td>
+</div>

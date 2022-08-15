@@ -1,0 +1,16 @@
+@page
+@model razorApp.Pages.Administration.Teacher.DeleteTeacher
+@{
+    ViewData["Title"] = "DeleteTeacher";
+}
+
+<h1>Tabort lärare</h1>
+
+<div class="center">
+    <h5>Är du säker på att du vill ta bort läraren @Model.Teacher.FirstName @Model.Teacher.LastName med Id:
+        @Model.Teacher.Id</h5>
+    <form method="post">
+        <button type="submit" class="btn btn-danger">Ja</button>
+    <a asp-page="./TeacherGallery">Nej</a>
+    </form>
+</div>

@@ -1,0 +1,30 @@
+@page
+@model razorApp.Pages.Administration.Student.ViewStudent
+@{
+    ViewData["Title"] = "ViewStudent";
+}
+
+<h1>Elev</h1>
+
+<div class="center">
+    <article>
+    <div><b>Id:</b> @Model.StudentModel.Id</div>
+    <div><b>Förnamn:</b> @Model.StudentModel.FirstName</div>
+    <div><b>Efternamn:</b> @Model.StudentModel.LastName</div>
+    <div><b>Email:</b> @Model.StudentModel.Email</div>
+    <div><b>PhoneNumber:</b> @Model.StudentModel.PhoneNumber</div>
+    <div><b>StreetAdress:</b> @Model.StudentModel.StreetAdress</div>
+    <div><b>ZipCode:</b> @Model.StudentModel.ZipCode</div>
+    <div><b>City:</b> @Model.StudentModel.City</div>
+    <div><b>Country:</b> @Model.StudentModel.Country</div>
+    <div><b>Kurser:</b></div>
+    <div>
+        @foreach(var course in @Model.StudentModel.Course)
+        {
+            <div>@course.Title</div>
+        }
+    </div>
+    <a asp-page="./StudentGallery"><i class="fa-solid fa-left-long"></i>Tillbaka till alla elever</a>
+  </section>
+</article>
+</div>

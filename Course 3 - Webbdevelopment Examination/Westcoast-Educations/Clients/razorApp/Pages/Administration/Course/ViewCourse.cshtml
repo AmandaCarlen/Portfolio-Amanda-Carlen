@@ -1,0 +1,20 @@
+@page
+@model razorApp.Pages.Administration.Course.ViewCourse
+@{
+    ViewData["Title"] = "ViewCourse";
+}
+
+<h1>Kurs</h1>
+
+<div class="center">
+    <article>
+    <div><b>Id:</b> @Model.CourseModel.Id</div>
+    <div><b>Title:</b> @Model.CourseModel.Title</div>
+    <div><b>Längd:</b> @Model.CourseModel.Length</div>
+    <div><b>Kategori:</b> @Model.CourseModel.Category</div>
+    <div><b>Beskrivning:</b> @Model.CourseModel.Description</div>
+    <div><b>Detaljer:</b> @Model.CourseModel.Details</div>  
+    <a asp-page="./CourseGallery"><i class="fa-solid fa-left-long"></i>Tillbaka till alla kurser</a>
+  </section>
+</article>
+</div>

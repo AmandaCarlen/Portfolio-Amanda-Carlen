@@ -1,0 +1,43 @@
+@page
+@model razorApp.Pages.Gallery
+
+@section styles{
+<link rel="stylesheet" href="~/css/gallery-page.css">
+}
+<h1>Alla kurser</h1>
+
+<div class="table-wrapper">
+    <section>
+        <form>
+            <select name="Category">
+                <option value="">Välj en kategori</option>
+                @for (int i = 0; i < Model.AllCategories.Count(); i++)
+                {
+                    <option value="@Model.AllCategories[i]">@Model.AllCategories[i]</option>
+                }
+                <input type="submit" value="Filter">
+            </select>
+        </form>
+    </section>
+    <table>
+        <tr>
+            <th>Kursnummer</th>
+            <th>Title</th>
+            <th>Längd</th>
+        </tr>
+        @foreach (var course in Model.Courses)
+        {
+            <tr>
+                <td>@course.Id</td>
+                <td>@course.Title</td>
+                <td>@course.Length</td>
+                <td>
+                    <form asp-page="./ViewCourse" method="GET">
+                        <button class="btn btn-default">Mer info</button>
+                        <input type="hidden" name="id" value="@course.Id" />
+                    </form>
+                </td>
+            </tr>
+        }
+    </table>
+</div>

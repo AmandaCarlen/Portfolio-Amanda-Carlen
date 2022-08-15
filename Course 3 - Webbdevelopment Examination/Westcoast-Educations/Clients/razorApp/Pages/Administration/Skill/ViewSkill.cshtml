@@ -1,0 +1,16 @@
+@page
+@model razorApp.Pages.Administration.Skill.ViewSkill
+@{
+    ViewData["Title"] = "ViewSkill";
+}
+
+<h1>Skill</h1>
+
+<div class="center">
+    <article>
+    <div><b>Id:</b> @Model.SkillModel.Id</div>
+    <div><b>Namn:</b> @Model.SkillModel.Name</div>    
+    <a asp-page="./SkillGallery"><i class="fa-solid fa-left-long"></i>Tillbaka till alla skills</a>
+  </section>
+</article>
+</div>

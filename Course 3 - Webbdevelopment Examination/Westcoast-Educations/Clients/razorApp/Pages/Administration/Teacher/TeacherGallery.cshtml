@@ -1,0 +1,64 @@
+@page
+@model razorApp.Pages.Administration.Teacher.TeacherGallery
+@{
+    ViewData["Title"] = "TeacherGallery";
+}
+
+<h1>Alla Lärare</h1>
+<div class="center">
+    <section>
+        <form>
+            <select name="Skill">
+                <option value="">Välj en skill</option>
+                @for (int i = 0; i < Model.AllSkills.Count(); i++)
+                {
+                    <option value="@Model.AllSkills[i]">@Model.AllSkills[i]</option>
+                }
+                <input type="submit" value="Filter">
+            </select>
+        </form>
+    </section>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Förnamn</th>
+            <th>Efternamn</th>
+            <th>Email</th>
+
+        </tr>
+        @foreach (var teacher in Model.Teachers)
+        {
+            <tr>
+                <td>@teacher.Id</td>
+                <td>@teacher.FirstName</td>
+                <td>@teacher.LastName</td>
+                <td>@teacher.Email</td>
+                <td>
+                    <form asp-page="./UpdateTeacher" method="GET">
+                        <button class="btn btn-default">Edit</button>
+                        <input type="hidden" name="id" value="@teacher.Id" />
+                    </form>
+                </td>
+                <td>
+                    <form asp-page="./ViewTeacher" method="GET">
+                        <button class="btn btn-default">View</button>
+                        <input type="hidden" name="id" value="@teacher.Id" />
+                    </form>
+                </td>
+                <td>
+                    <form asp-page="./DeleteTeacher" method="GET">
+                        <button class="btn btn-default">Delete</button>
+                        <input type="hidden" name="id" value="@teacher.Id" />
+                    </form>
+                </td>
+
+            </tr>
+        }
+    </table>
+    <td>
+        <form asp-page="./CreateTeacher" method="GET">
+            <button class="btn btn-default">Lägg till lärare</button>
+        </form>
+    </td>
+</div>

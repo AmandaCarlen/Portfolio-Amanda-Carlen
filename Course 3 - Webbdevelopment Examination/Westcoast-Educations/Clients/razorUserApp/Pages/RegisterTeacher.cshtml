@@ -1,0 +1,72 @@
+@page
+@model razorUserApp.Pages.RegisterTeacher
+@{
+    ViewData["Title"] = "RegisterTeacher";
+}
+
+<header>
+    <h1 class="page-title">Registrera som lärare</h1>
+</header>
+<section class="form-wrapper">
+    <h4>Teacher information</h4>
+    <section>        
+        <form method="post">
+            <div class="form-controller">
+                <label asp-for="TeacherModel.FirstName"></label>
+                <input asp-for="TeacherModel.FirstName">
+            </div>
+            <div class="form-controller">
+                <label asp-for="TeacherModel.LastName"></label>
+                <input asp-for="TeacherModel.LastName">
+            </div>
+            <div class="form-controller">
+                <label asp-for="TeacherModel.Email"></label>
+                <input asp-for="TeacherModel.Email">
+            </div>
+            <div class="form-controller">
+                <label asp-for="TeacherModel.PassWord"></label>
+                <input asp-for="TeacherModel.PassWord">
+            </div>
+            <div class="form-controller">
+                <label asp-for="TeacherModel.PhoneNumber"></label>
+                <input asp-for="TeacherModel.PhoneNumber">
+            </div>
+            <div class="form-controller">
+                <label asp-for="TeacherModel.StreetAdress"></label>
+                <input asp-for="TeacherModel.StreetAdress">
+            </div>
+            <div class="form-controller">
+                <label asp-for="TeacherModel.ZipCode"></label>
+                <input asp-for="TeacherModel.ZipCode">
+            </div>
+            <div class="form-controller">
+                <label asp-for="TeacherModel.City"></label>
+                <input asp-for="TeacherModel.City">
+            </div>
+            <div class="form-controller">
+                <label asp-for="TeacherModel.Country"></label>
+                <input asp-for="TeacherModel.Country">
+            </div>
+             <div class="form-controller">
+                 <h6>Skills:</h6>
+                <table>
+                    @for (int i = 0; i < Model.SkillCheckboxList.Count(); i++)
+                    {
+                        <tr>
+                            <td><label>@Model.SkillCheckboxList[i].Name</label></td>
+                            <td><input asp-for="SkillCheckboxList[i].IsChecked" /></td>
+                            <input asp-for="SkillCheckboxList[i].Name" type="hidden" value=@Model.SkillCheckboxList[i].Name/>
+                        </tr>
+                        
+                    }
+                </table>
+            </div>
+             <div class="button">
+                <button type="submit" class="btn">Skapa</button>
+            </div>
+        </form>
+
+    </section>
+</section>
+
+

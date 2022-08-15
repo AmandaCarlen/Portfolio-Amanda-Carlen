@@ -1,0 +1,16 @@
+@page
+@model razorApp.Pages.Administration.DeleteCourse
+@{
+    ViewData["Title"] = "DeleteCourse";
+}
+
+<h1>Tabort kurs</h1>
+
+<div class="center">
+    <h5>Är du säker på att du vill ta bort kursen  med Id: @Model.Course.Id</h5>
+    <form method="post">
+        <button type="submit" class="btn btn-danger">Ja</button>
+    <a asp-page="./CourseGallery">Nej</a>
+    </form>
+</div>
+

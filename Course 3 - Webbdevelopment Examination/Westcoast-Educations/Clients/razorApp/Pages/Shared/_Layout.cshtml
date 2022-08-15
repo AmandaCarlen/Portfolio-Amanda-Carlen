@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/cbd941066d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="~/css/styles.css">
+    @RenderSection("styles", false)
+    <title>Westcoast Cars @ViewData["Title"]</title>
+</head>
+<body>
+    <nav id="navbar">
+        <h1>Westcoast Education</h1>
+        <ul>
+            <li><a asp-page="/Index">Start</a></li>
+            <li><a asp-page="/Administration/Course/CourseGallery">Kurser</a></li>
+            <li><a asp-page="/Administration/Teacher/TeacherGallery">Lärare</a></li>
+            <li><a asp-page="/Administration/Student/StudentGallery">Studenter</a></li>
+            <li><a asp-page="/Administration/Skill/SkillGallery">Skill</a></li>
+            <li><a asp-page="/Administration/Category/CategoryGallery">Kategori</a></li>
+        </ul>
+    </nav>
+    <main>
+        @RenderBody()
+    </main>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

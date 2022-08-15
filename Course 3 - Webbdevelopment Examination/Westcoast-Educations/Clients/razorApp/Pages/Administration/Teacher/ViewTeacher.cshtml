@@ -1,0 +1,36 @@
+@page
+@model razorApp.Pages.Administration.Teacher.ViewTeacher
+@{
+    ViewData["Title"] = "ViewTeacher";
+}
+
+<h1>Lärare</h1>
+
+<div class="center">
+    <article>
+    <div><b>Förnamn:</b> @Model.TeacherModel.FirstName</div>
+    <div><b>Efternamn:</b> @Model.TeacherModel.LastName</div>
+    <div><b>Email:</b> @Model.TeacherModel.Email</div>
+    <div><b>PhoneNumber:</b> @Model.TeacherModel.PhoneNumber</div>
+    <div><b>StreetAdress:</b> @Model.TeacherModel.StreetAdress</div>
+    <div><b>ZipCode:</b> @Model.TeacherModel.ZipCode</div>
+    <div><b>City:</b> @Model.TeacherModel.City</div>
+    <div><b>Country:</b> @Model.TeacherModel.Country</div>
+    <div>
+        <div><b>Skills:</b></div>
+        @foreach(var skill in @Model.TeacherModel.Skill)
+        {
+            <div>@skill.Name</div>
+        }
+    </div>
+        <div><b>Kurser:</b></div>
+    <div>
+        @foreach(var course in @Model.TeacherModel.Course)
+        {
+            <div>@course.Title</div>
+        }
+    </div>
+    <a asp-page="./TeacherGallery"><i class="fa-solid fa-left-long"></i>Tillbaka till alla lärare</a>
+  </section>
+</article>
+</div>

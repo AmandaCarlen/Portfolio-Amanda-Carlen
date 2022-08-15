@@ -1,0 +1,27 @@
+@page
+@model razorApp.Pages.Administration.Category.CreateCategory
+@{
+    ViewData["Title"] = "CreateCategory";
+}
+
+<header>
+    <h1 class="page-title">Lägg till ny kategori</h1>
+
+</header>
+<section class="center">
+    <h4>Kategori information</h4>
+    <section>        
+        <form method="post">
+            <div>
+                <label asp-for="CategoryModel.Name"></label>
+                <input asp-for="CategoryModel.Name">
+            </div>
+             <div class="button">
+                <button type="submit" class="btn">Spara</button>
+            </div>
+        </form>
+            <a asp-page="./CategoryGallery"><i class="fa-solid fa-left-long"></i>Tillbaka till alla kategorier</a>
+
+    </section>
+</section>
+

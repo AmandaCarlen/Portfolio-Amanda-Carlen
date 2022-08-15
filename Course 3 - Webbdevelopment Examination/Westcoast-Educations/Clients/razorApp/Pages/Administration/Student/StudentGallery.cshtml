@@ -1,0 +1,45 @@
+@page
+@model razorApp.Pages.Administration.Student.StudentGallery
+@{
+    ViewData["Title"] = "StudentGallery";
+}
+
+<h1>Alla Elever</h1>
+
+<div class="center">
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Förnamn</th>
+            <th>Efternamn</th>
+            <th>Email</th>
+
+        </tr>
+        @foreach(var student in Model.Students)
+        {
+            <tr>
+                <td>@student.Id</td>
+                <td>@student.FirstName</td>
+                <td>@student.LastName</td>
+                <td>@student.Email</td>
+               <td><form asp-page="./UpdateStudent" method="GET">
+                    <button class="btn btn-default">Edit</button>
+                    <input type="hidden" name="id" value="@student.Id" />
+                </form></td>
+                 <td><form asp-page="./ViewStudent" method="GET">
+                    <button class="btn btn-default">View</button>
+                    <input type="hidden" name="id" value="@student.Id" />
+                </form></td>
+                 <td><form asp-page="./DeleteStudent" method="GET">
+                    <button class="btn btn-default">Delete</button>
+                    <input type="hidden" name="id" value="@student.Id" />
+                </form></td>
+            </tr>
+        }
+    </table>
+        <td><form asp-page="./CreateStudent" method="GET">
+                    <button class="btn btn-default">Lägg till elev</button>
+        </form></td>
+    
+    
+</div>

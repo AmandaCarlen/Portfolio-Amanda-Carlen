@@ -1,0 +1,29 @@
+@page
+@model razorApp.Pages.Administration.Skill.UpdateSkill
+@{
+    ViewData["Title"] = "UpdateSkill";
+}
+
+<header>
+    <h1>Ändra skill</h1>
+
+</header>
+<section class="center">
+    <h4>Skill information</h4>
+    <section>        
+        <form method="post">
+            <div>
+                <input type="hidden" asp-for="SkillModel.Id">
+            </div> 
+            <div>
+                <label asp-for="SkillModel.Name"></label>
+                <input asp-for="SkillModel.Name">
+            </div>
+             <div class="button">
+                <button type="submit" class="btn">Spara</button>
+            </div>
+        </form>
+            <a asp-page="./SkillGallery"><i class="fa-solid fa-left-long"></i>Tillbaka till alla lärare</a>
+    </section>
+</section>
+

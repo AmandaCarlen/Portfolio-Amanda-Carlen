@@ -1,0 +1,58 @@
+@page
+@model razorApp.Pages.Administration.Student.CreateStudent
+@{
+    ViewData["Title"] = "CreateStudent";
+}
+
+<header>
+    <h1 class="page-title">Lägg till ny student</h1>
+
+</header>
+<section class="center">
+    <h4>Student information</h4>
+    <section>        
+        <form method="post">
+            <div>
+                <label asp-for="StudentModel.FirstName"></label>
+                <input asp-for="StudentModel.FirstName">
+            </div>
+            <div>
+                <label asp-for="StudentModel.LastName"></label>
+                <input asp-for="StudentModel.LastName">
+            </div>
+            <div>
+                <label asp-for="StudentModel.Email"></label>
+                <input asp-for="StudentModel.Email">
+            </div>
+            <div>
+                <label asp-for="StudentModel.PassWord"></label>
+                <input asp-for="StudentModel.PassWord">
+            </div>
+            <div>
+                <label asp-for="StudentModel.PhoneNumber"></label>
+                <input asp-for="StudentModel.PhoneNumber">
+            </div>
+            <div>
+                <label asp-for="StudentModel.StreetAdress"></label>
+                <input asp-for="StudentModel.StreetAdress">
+            </div>
+            <div>
+                <label asp-for="StudentModel.ZipCode"></label>
+                <input asp-for="StudentModel.ZipCode">
+            </div>
+            <div>
+                <label asp-for="StudentModel.City"></label>
+                <input asp-for="StudentModel.City">
+            </div>
+            <div>
+                <label asp-for="StudentModel.Country"></label>
+                <input asp-for="StudentModel.Country">
+            </div>
+             <div class="button">
+                <button type="submit" class="btn">Spara</button>
+            </div>
+        </form>
+            <a asp-page="./StudentGallery"><i class="fa-solid fa-left-long"></i>Tillbaka till alla elever</a>
+
+    </section>
+</section>

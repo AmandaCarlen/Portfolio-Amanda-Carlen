@@ -1,0 +1,132 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = razorApp
+build_property.RootNamespace = razorApp
+build_property.ProjectDir = C:\Users\amand\Studier-hårddisk\ITHS\Westcoast-Educations\Clients\razorApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\amand\Studier-hårddisk\ITHS\Westcoast-Educations\Clients\razorApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Category/CategoryGallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cQ2F0ZWdvcnlcQ2F0ZWdvcnlHYWxsZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Category/CreateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cQ2F0ZWdvcnlcQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Category/UpdateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Category/ViewCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cQ2F0ZWdvcnlcVmlld0NhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Course/CourseGallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cQ291cnNlXENvdXJzZUdhbGxlcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Course/CreateCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cQ291cnNlXENyZWF0ZUNvdXJzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Course/DeleteCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cQ291cnNlXERlbGV0ZUNvdXJzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Course/UpdateCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cQ291cnNlXFVwZGF0ZUNvdXJzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Course/ViewCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cQ291cnNlXFZpZXdDb3Vyc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Skill/CreateSkill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cU2tpbGxcQ3JlYXRlU2tpbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Skill/SkillGallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cU2tpbGxcU2tpbGxHYWxsZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Skill/UpdateSkill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cU2tpbGxcVXBkYXRlU2tpbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Skill/ViewSkill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cU2tpbGxcVmlld1NraWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Student/CreateStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cU3R1ZGVudFxDcmVhdGVTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Student/DeleteStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cU3R1ZGVudFxEZWxldGVTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Student/StudentGallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cU3R1ZGVudFxTdHVkZW50R2FsbGVyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Student/UpdateStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cU3R1ZGVudFxVcGRhdGVTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Student/ViewStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cU3R1ZGVudFxWaWV3U3R1ZGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Teacher/CreateTeacher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cVGVhY2hlclxDcmVhdGVUZWFjaGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Teacher/DeleteTeacher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cVGVhY2hlclxEZWxldGVUZWFjaGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Teacher/TeacherGallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cVGVhY2hlclxUZWFjaGVyR2FsbGVyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Teacher/UpdateTeacher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cVGVhY2hlclxVcGRhdGVUZWFjaGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Administration/Teacher/ViewTeacher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYXRpb25cVGVhY2hlclxWaWV3VGVhY2hlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amand/Studier-hårddisk/ITHS/Westcoast-Educations/Clients/razorApp/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-a6hi57yo31

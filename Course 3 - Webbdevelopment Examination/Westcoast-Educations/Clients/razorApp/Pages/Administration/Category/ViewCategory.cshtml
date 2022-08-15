@@ -1,0 +1,17 @@
+@page
+@model razorApp.Pages.Administration.Category.ViewCategory
+@{
+    ViewData["Title"] = "ViewCategory";
+}
+
+<h1>Kategori</h1>
+
+<div class="center">
+    <article>
+    <div><b>Id:</b> @Model.CategoryModel.Id</div>
+    <div><b>Namn:</b> @Model.CategoryModel.Name</div>    
+    <a asp-page="./CategoryGallery"><i class="fa-solid fa-left-long"></i>Tillbaka till alla kategorier</a>
+  </section>
+</article>
+</div>
+

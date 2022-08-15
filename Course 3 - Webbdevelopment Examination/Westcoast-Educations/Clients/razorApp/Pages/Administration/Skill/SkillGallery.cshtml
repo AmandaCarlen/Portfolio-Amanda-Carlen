@@ -1,0 +1,41 @@
+@page
+@model razorApp.Pages.Administration.Skill.SkillGallery
+@{
+    ViewData["Title"] = "SkillGallery";
+}
+
+<h1>Alla Skills</h1>
+
+<div class="center">
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Namn</th>
+        </tr>
+        @foreach (var skill in Model.Skills)
+        {
+            <tr>
+                <td>@skill.Id</td>
+                <td>@skill.Name</td>
+                <td>
+                    <form asp-page="./UpdateSkill" method="GET">
+                        <button class="btn btn-default">Edit</button>
+                        <input type="hidden" name="id" value="@skill.Id" />
+                    </form>
+                </td>
+                <td>
+                    <form asp-page="./ViewSkill" method="GET">
+                        <button class="btn btn-default">View</button>
+                        <input type="hidden" name="id" value="@skill.Id" />
+                    </form>
+                </td>
+            </tr>
+        }
+    </table>
+    <td>
+        <form asp-page="./CreateSkill" method="GET">
+            <button class="btn btn-default">Lägg till skill</button>
+        </form>
+    </td>
+
+</div>
